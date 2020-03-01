@@ -54,7 +54,7 @@ img_bg:
 # Not work when random_space applied
 text_border:
   enable: false
-  fraction: 0.5
+  fraction: 0.45
 
   # lighter than word color
   light:
@@ -91,7 +91,7 @@ prydown:
 
 noise:
   enable: true
-  fraction: 0.3
+  fraction: 0.25
 
   gauss:
     enable: true
@@ -142,8 +142,8 @@ line_color:
 # By default, text is darker than background.
 # If `reverse_color` is enabled, some images will have dark background and light text
 reverse_color:
-  enable: false
-  fraction: 0.5
+  enable: true
+  fraction: 0.1
 
 emboss:
   enable: false
